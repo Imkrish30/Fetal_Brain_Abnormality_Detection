@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Prediction Result</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Prediction Result</h1>
+
+<img src="{{ url_for('static', filename='uploads/' + filename) }}"
+     width="300"
+     style="border-radius:10px;">
+
+<br><br>
+
+<h2>Disease</h2>
+
+<h3>{{ disease }}</h3>
+
+<h2>Confidence</h2>
+
+<h3>{{ "%.2f"|format(confidence) }}%</h3>
+
+<br>
+
+<a href="/">
+<button>Predict Another Image</button>
+</a>
+
+</div>
+
+</body>
+
+</html>
