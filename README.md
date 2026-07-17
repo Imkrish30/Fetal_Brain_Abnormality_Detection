@@ -86,9 +86,23 @@ The CNN model was trained to classify fetal brain ultrasound images into multipl
 
 ---
 
-## 📷 Screenshots
+## 📷 Application Screenshots
 
-(Add screenshots of your application here.)
+### 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+### 📤 Upload Image
+
+![Upload Image](screenshots/upload.png)
+
+---
+
+### 🧠 Prediction Result
+
+![Prediction Result](screenshots/result.png)
 
 ---
 
